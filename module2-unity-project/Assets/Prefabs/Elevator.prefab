@@ -12,9 +12,8 @@ GameObject:
   - component: {fileID: 3330179563837552675}
   - component: {fileID: 5978943290975548797}
   - component: {fileID: 6654555945473650025}
-  - component: {fileID: 2035489341465929712}
   m_Layer: 0
-  m_Name: Barrier
+  m_Name: Elevator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 2, z: 1}
+  m_LocalScale: {x: 5, y: 0.25, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -106,18 +105,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2035489341465929712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8885027435898780964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faf6e3b45b258f4479f55868de9f7489, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  upTarget: {x: 0, y: 0, z: 0}
-  downTarget: {x: 0, y: -1.9, z: 0}
-  speed: 3
